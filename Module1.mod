@@ -257,7 +257,7 @@ MODULE Module1
         VAR num yof_n5n2;
 
         nextRefpt   := Offs(refpt, 0, fontWidth, 0);
-        xof_n1n4n5  := 1*(((1*fontWidth)-(fontHeight/2))/2); ! the upper ring's aproximate diameter should be half of the total char height. Multiplying by -1 is just for adjusting the cordingates.
+        xof_n1n4n5  := 1*(((1*fontWidth)-(fontHeight/2))/2); ! the upper rings aproximate diameter should be half of the total char height. Multiplying by -1 is just for adjusting the cordingates.
         xof_n2n3    := fontWidth - xof_n1n4n5;
         yof_n4n3    := 0;
         yof_n5n2    := fontHeight * 0.45;
