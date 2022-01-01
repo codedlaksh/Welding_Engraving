@@ -42,7 +42,7 @@ MODULE Module1
                 next := drawnumber8(next,charHight, charWidth);!calling NUMBER 8 function
                 next := Offs(backup,0, wordWidth, 0);
             ENDFOR
-            next := Offs(backup, wordHeight, 0, 0);      ! moving to next row's left top most point
+            next := Offs(backup, wordHeight, 0, 0);      ! moving to next rows left top most point
         ENDFOR
 
     RETURN finished;    ! for future use
